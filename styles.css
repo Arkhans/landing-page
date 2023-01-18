@@ -27,10 +27,6 @@ section {
     flex-wrap: wrap;
 }
 
-.header {
-    padding-top: 10px;
-}
-
 
 .header > .logo {
     margin-right: auto;
@@ -46,6 +42,15 @@ section {
 .header > a:visited {
     color: #F0F7F4;    
     font-weight: 900;
+}
+
+.contact-me {
+    background: white;
+    border-color: white;
+    border-radius: 20px;
+    padding: 10px 35px 10px 35px;
+    font-size: 15px;
+    font-weight: bolder;
 }
 
 .hero {
@@ -66,6 +71,62 @@ section {
 
 .container-two {
     flex-basis: 640px;
+}
+
+.cards {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+.card-section {
+    display: inherit;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+    padding-left: 100px;
+    padding-right: 100px;    
+}
+
+.card {
+    display: inherit;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    max-width: 15%;
+
+}
+
+.card img {
+    border: solid #001D4A;
+    border-radius: 25px;
+}
+
+.card p {
+    text-align: center;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    padding-left: 400px;
+    padding-right: 400px;    
+}
+
+#quote {
+    font-style: italic;
+    color: #1f2937;
+}
+
+#ref {
+    text-align: right;
+    font-weight: bold;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
 }
 
 h1 {
