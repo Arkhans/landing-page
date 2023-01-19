@@ -40,6 +40,10 @@ a:not([class]) {
   text-decoration-skip-ink: auto;
 }
 
+a {
+    text-decoration: none;
+}
+
 /* Make images easier to work with */
 img,
 picture,
@@ -109,7 +113,7 @@ section {
 .contact-me {
     background: white;
     border-color: white;
-    border-radius: 20px;
+    border-radius: 15px;
     padding: 10px 35px 10px 35px;
     font-size: 15px;
     font-weight: bolder;
